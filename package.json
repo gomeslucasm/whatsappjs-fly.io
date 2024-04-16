@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#webpack-exodus",
-    "whatsapp.js-qrcode-page": "^0.0.1"
+    "whatsapp.js-qrcode-page": "^0.0.2"
   }
 }

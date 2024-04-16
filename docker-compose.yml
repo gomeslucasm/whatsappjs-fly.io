@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  whatsappjs:
+    container_name: whatsappjs
+    build:
+      dockerfile: ./dev.Dockerfile
+    restart: unless-stopped
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    working_dir: /app
+    command: npm run start
+    environment:
+      - NODE_ENV=development
