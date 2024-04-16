@@ -1,2 +1,3 @@
 clientsAuth/
 node_modules/
+.env
