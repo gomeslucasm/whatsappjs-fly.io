@@ -23,10 +23,11 @@ To get started with this project, clone the repository and follow the setup inst
 
 1. Clone the repository:
 
-````bash
+```bash
 git clone https://github.com/gomeslucasm/whatsappjs-fly.io.git
 docker-compose build
-``
+```
+
 ## Usage
 
 To run the application locally:
@@ -47,4 +48,3 @@ Contributions are welcome! Please read the contributing guide to learn how you c
 License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-````
