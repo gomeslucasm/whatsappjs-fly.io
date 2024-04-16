@@ -33,7 +33,7 @@ To run the application locally:
 
 ```bash
 docker-compose up
-````
+```
 
 To deploy the application on Fly.io:
 
@@ -47,3 +47,4 @@ Contributions are welcome! Please read the contributing guide to learn how you c
 License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
+````
